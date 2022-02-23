@@ -1,3 +1,7 @@
+# Custom
+issue-tracker/.idea/*
+issue-tracker/backend/issue-tracker/src/main/resources/application.properties
+
 # Compiled class file
 *.class
 
