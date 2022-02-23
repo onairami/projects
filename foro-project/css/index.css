@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(31, 28, 28);
+    opacity: 100;
+    height: 100%;
+    color: rgb(99, 99, 99);
+}
+
+.app {
+    height: 100%;
+}
+
+#login-form {
+    background-color: #914242;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 3em;
+    /* background-color: tomato; */
+    border-radius: 2em;
+    border: solid 1px black;
+}
+
+.login-elem {
+    display: block;
+}
+
+.banner {    
+    /* background: rgb(31, 28, 28); */
+    color: white;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-width: 1px;
+    height: 2.5rem;
+    /* padding: 0.5em 0 0.5em 0; */
+}
+
+.dropdown-user-menu {
+    width: 13rem;
+    text-align: center;
+    margin-right: 2rem;
+    cursor: default;
+}
+
+.greeting {
+    /* height: 2.5rem; */
+}
+
+.dropdown-user-menu:hover  .dropdown-user-menu-content {
+    display: block;
+}
+
+.dropdown-user-menu:hover {
+    background-color: black;
+}
+
+.dropdown-user-menu-content {    
+    width: 13em;
+    text-align: center;
+    /* margin-top: 2.5em; */
+    margin-right: 2rem;
+    display: none;
+    position: absolute;
+    right: 0;
+    transition-delay: display 2s;
+}
+
+.dropdown-user-menu-content p {
+    background-color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    cursor: default;
+}
+
+.dropdown-user-menu-content p:hover {
+    background-color: #757575;
+}
+
+.container-banner {
+    display: flex;
+/*     width: 100%; */
+    justify-content: space-between;
+    margin: 0 auto;
+    opacity: 100;
+}
+
+.container-main {
+    display: flex;
+/*     width: 100%; */
+/*     justify-content: space-between; */
+/*     margin: 0 auto; */
+    opacity: 100;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.brand-name {
+    margin-left: 1em;
+    margin-top: 0.2em;
+}
+
+/* .user-menu {
+    margin-right: 1em;
+} */
+
+
+
+/* Left menu */
+
+.main-menu {
+    /* width: 15%; */
+    /* background-color: rgb(31, 28, 28); */
+    /* padding: 1rem; */
+    align-self: stretch;
+    border-right: solid 1px black;
+    padding-top: 3em;
+}
+
+.menu-button {
+    border: none;
+    background-color:   rgb(31, 28, 28);
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    user-select: none;
+    display: block;
+    text-align: start;
+    padding: 0em 1em 0em 1em;
+
+}
+
+.menu-button:hover {
+    background: #914242;
+}
+
+
+
+/* Content panel (right) */
+
+.main-content {
+    /* width: 85%; */
+    /* background: rgb(31, 28, 28); */
+    color: white;
+    align-self: stretch;
+    flex: 6;
+    /* padding-top: 0.5em;
+    padding-left: 2em; */
+}
+
+.main-content h1 {
+    text-align: center;
+}
+
+.foro-top-menu-bar {
+    /* margin-bottom: 2em; */
+    background-color: #914242;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+.std-button {
+    margin-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border-radius: 0.3em;
+    border: none;
+    background-color: white;
+}
+
+.thread-search-btn {
+    margin-right: 0;
+}
+
+.display-content {
+    /* padding-left: 2em;
+    padding-right: 2em; */
+}
+
+.display-content h3{
+    margin-left: 1em;
+    margin-right: 2em;
+    padding: 3em 0 1.5em 0;
+    border-bottom: 1px solid black;
+}
+
+.threads-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 1.5em;
+}
+
+tr {
+    border-radius: 0.5em;
+    cursor: default;
+}
+
+td {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.thread-row:hover {
+    background-color: #914242;
+}
+
+.form-login {
+    background-color: rgb(146, 0, 0);
+    margin: auto;
+    width: 50%;
+    opacity: 0;
+    position: static;
+}
+
+/* .login-form {
+    margin-right: 1em;
+} */
+
+.login-input {
+    height: 2em;
+    border-radius: 0.3em;
+    border: none;
+    background-color: white;
+    padding-left: 0.25em;
+    margin-top: 0.5em;
+}
+
+.input-submit {
+    color: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-right: 2em;
+}
+
+.post-contenido {
+    background-color: #424242;
+    padding: 5em 1em 2em 2em;
+    /* background-color: rgb(56, 56, 56); */
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.comment-content {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em;
+    /* background-color: rgb(56, 56, 56); */
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+/* .thread-comment-sectionnnn {
+    padding: 1em;
+    background-color: rgb(56, 56, 56);
+    border-bottom: 1px solid black;
+    display: flex;
+} */
+
+.post-contenido h4 {
+    padding-top: 2em;
+}
+
+.post-content-data {
+    padding-left: 2em;
+    /* flex: 10; */
+}
+
+.post-content-data h1 {
+    text-align: left;
+}
+
+.post-user-data {
+    text-align: center;
+    /* width: 7%; */
+    max-width: 80px;
+    /* flex: 1; */
+}
+
+.user-avatar {
+    width: 5rem;
+}
+
+/* .nuevo-comentario-section {
+    margin-top: 2rem;
+}
+
+.nuevo-comentario-section .textbox {
+    width: 80%;
+    border: none;
+} */
+
+/* .hidden-not-login {
+    opacity: 0;
+} */
+
+.prev-page-comments {
+    margin-top: 3em;
+    margin-left: 20em;
+}
+
+.next-page-comments {
+    float: right;
+    margin-top: 3em;
+    margin-right: 20em;
+}
+
+.new-comment-section {
+    margin-top: 2rem;
+}
+
+.new-comment-section textarea {
+    margin-top: 1em;
+    width: 80%;
+    height: 10em;
+    resize: none;
+    border: none;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.new-comment-section input {
+    margin: 1em 0 3em 0;
+    display: block;
+    padding: 0.5em 1em 0.5em 1em;
+    color: white;
+    background-color: #5db15d;
+    border: none;
+    border-radius: 0.25em;
+}
+
+.new-comment-section input:active {
+    background-color: #487a48;
+}
+
+.new-comment-section input:disabled {
+    background-color: #757575;
+}
+
+.lista-threads {
+    opacity: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+.blurred {
+    filter: blur(8px);
+}
+
+
+
+
+/* New thread view */
+
+.new-thread-view {
+    margin: 1em 0 2em 1em;
+    color:#a7a7a7;
+}
+
+.new-thread-title {
+    margin-bottom: 2em;
+}
+
+.new-thread-category-section {
+    margin-bottom: 1em;
+}
+
+.new-thread-category-section select {
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    width: 15em;
+}
+
+.new-thread-title-section {
+    margin-bottom: 1em;
+}
+
+.new-thread-title-section textarea {
+    height: 2em;
+    width: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.new-thread-content-section {
+    margin-bottom: 1em;
+}
+
+.new-thread-content-section textarea {
+    width: 80%;
+    height: 10em;
+    resize: none;
+    border: none;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.new-thread-submit-btn {
+    margin-top: 2em;
+    padding: 0.5em 1em 0.5em 1em;
+    color: white;
+    background-color: #5db15d;
+    border: none;
+    border-radius: 0.25em;
+}
+
+.new-thread-submit-btn:active {
+    background-color: #487a48;
+}
+
+.new-thread-submit-btn:disabled {
+    background-color: #757575;
+}
+
+
+/* Search result page */ 
+
+.search-view-h2 {
+    margin: 1em 0 4em 1em;
+}

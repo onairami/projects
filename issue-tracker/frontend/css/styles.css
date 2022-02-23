@@ -1,0 +1,338 @@
+* {
+    outline: none;
+}
+
+body {
+    color: white;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+#title {
+    margin: 0.2em 0em 0em 1em; 
+}
+
+a {
+    color: tomato;
+}
+
+.error-msg {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 86, 86);
+}
+
+.login-form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 3em;
+    /* background-color: tomato; */
+    border-radius: 2em;
+    border: solid 0.15em tomato;
+}
+
+.login-elem {
+    display: block;
+    border-radius: 5em;
+    border: solid 0.15em tomato;
+    /* margin: 1em; */
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    width: 15em;
+}
+
+.login-btn {
+    background-color: tomato;
+    margin-bottom: 3em;
+    width: 10em;
+}
+
+.login-btn:hover {
+    background-color: rgb(253, 123, 100);
+    border-color: rgb(253, 123, 100);
+}
+
+.main-nav-bar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    top: 0;
+    border-bottom: solid 2px tomato;
+
+}
+
+.menu {
+    margin-top: 3em;
+    background-color: #1c1c1c;
+    width: 13%;
+    float: left;
+    padding-top: 3em;
+    border-right: solid black;
+    height: 20em;
+}
+
+.menu-btn {
+    background-color: #1c1c1c;
+    color: tomato;
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    border: solid 0.1em black;
+    border-collapse: collapse;
+
+}
+
+.menu-btn:hover {
+    background-color: black;
+
+}
+
+.menu input {
+     display: block;
+}
+
+.main {
+    margin-top: 3em;
+    padding-left: 1em;
+    background-color: #1c1c1c;
+    float: right;
+    width: 85%;
+    padding-top: 1em;
+    margin-bottom: 4em;
+    /* border-left: solid black 0.2em; */
+}
+
+.standard-btn {
+    background-color: #1c1c1c;
+    border-radius: 5em;
+    border: solid 0.15em tomato;
+    padding: 0.5em;
+    color: tomato;
+    width: 10em;
+    margin-right: 2em;
+    /* min-width: 10%; */
+
+}
+
+.standard-btn:active {
+    background-color: black;
+    border-radius: 5em;
+    border: solid 0.15em tomato;
+    padding: 0.5em;
+    color: tomato;
+
+}
+
+.search-textbox {
+    border-radius: 5em;
+    border: solid 0.15em tomato;
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+}
+
+.ticket-list {
+    margin-top: 1em;
+}
+
+.ticket-table {
+    /* border: solid black 0.13em; */
+    width: 100%;
+    float: right;
+    color: white;
+    border-radius: 0.5em;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+tr:hover {
+    background-color: rgba(10, 10, 10, 0.822);
+}
+
+th, td {
+    border-bottom: solid black 0.1em;
+    border-right: none;
+    border-left: none;
+}
+
+.ticket-view {
+    /*     margin-top: 2rem; */
+    border-bottom: solid black;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+}
+
+.ticket-text-textarea {
+    border-radius: 0.25em;
+    background-color: white;
+    display: inline-block;
+    padding-left: 0.25em;
+    padding-right: 0.5em;
+    color: black;
+    resize: none;
+    border: none;
+}
+
+.text-div {
+    border-radius: 0.25em;
+    background-color: white;
+    display: inline-block;
+    padding-left: 0.25em;
+    padding-right: 0.5em;
+    color: black;
+}
+    
+.ticket-details-label{
+    display: inline-block;
+    width: 6rem;
+    /*     margin-top: 1em; */
+    margin-bottom: 1em;
+    /*     height: 1em; */
+}
+
+#ticket-id {
+    width: 10%;
+    height: 2em;
+    font-size: 1em;
+}
+    
+#ticket-creator {
+    height: 2em;
+    width: 10%;
+}
+
+.ticket-sector-combo {
+    width: 10%;
+}
+
+.ticket-user-combo {
+    width: 10%;
+}
+
+.ticket-status-combo {
+    width: 10%;
+}
+    
+.ticket-details-summary {
+    min-height: 40%;
+    background-color: white;
+    display: inline-block;
+    color: black;
+    width: 80%;
+}
+    
+.ticket-details-description {
+    min-height: 40%;
+    width: 80%;
+    padding-bottom: 1em;
+    height: 20em;
+
+}
+    
+.details-section  {
+    /* height: 13em; */
+    margin-bottom: 2em;
+}
+
+.reply-details {
+    padding: 1em;
+    border-bottom: solid black;
+    width: 90%;
+    background-color: black;
+    border-radius: 1em;
+    margin-top: 1em;
+    
+}
+
+.reply-author-span {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.reply-date-span {
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    color: grey;
+}
+
+.reply-text {
+    color: black;
+    background-color: white;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    word-wrap: anywhere;
+}
+
+.new-thread-label {
+    display: block;
+}
+
+.new-thread-input {
+    display: block;
+}
+
+.new-reply {
+    margin-top: 3em;
+}
+
+.new-reply-textbox {
+    display: block;
+    border-radius: 0.25em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 5em;
+    border: none;
+    margin-bottom: 1em;
+    width: 80%;
+    min-height: 6em;
+    border: solid 0.15em tomato;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.new-reply-submit {
+    display: block;
+}
+
+.new-ticket-label {
+    display: inline-block;
+    width: 6em;
+    margin-bottom: 1em;
+}
+
+.new-ticket-select {
+    width: 8em;
+}
+
+.new-ticket-input {
+    width: 80%;
+    height: 2em;
+    resize: none;
+}
+
+.new-ticket-description {
+    height: 20em;
+    padding-bottom: 2em;
+}
