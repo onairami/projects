@@ -1,6 +1,12 @@
 # Custom
 issue-tracker/.idea/*
+issue-tracker/backend/.idea/*
 issue-tracker/backend/issue-tracker/src/main/resources/application.properties
+
+foro-project/.vscode/
+
+uni/backend/uni/src/main/resources/application.properties
+uni/backend/.idea/*
 
 # Compiled class file
 *.class
